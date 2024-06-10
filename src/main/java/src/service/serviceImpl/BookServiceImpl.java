@@ -9,6 +9,9 @@ import src.entity.BookEntity;
 import src.repository.BookRepository;
 import src.service.BookService;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 public class BookServiceImpl implements BookService {
 
@@ -37,5 +40,18 @@ public class BookServiceImpl implements BookService {
     @Override
     public boolean deleteBook(Long id) {
         return false;
+    }
+
+    @Override
+    public List<Book> getAllBooks() {
+        List<BookEntity> allBooks = (List<BookEntity>) bookRepository.findAll();
+        List<Book> allBooksDto = new ArrayList<>();
+
+        for(BookEntity bookEntity: allBooks){
+            Book book = modelMapper.map(bookEntity, Book.class);
+            allBooksDto.add(book);
+        }
+        return allBooksDto;
+
     }
 }

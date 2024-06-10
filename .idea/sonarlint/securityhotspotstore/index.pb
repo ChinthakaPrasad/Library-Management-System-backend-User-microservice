@@ -1,18 +1,8 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-G
-src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
-<
-src/main/src,4\e\4e1836ab6d35c916758c40265a104b4700153baa
 K
 src/main/java/src/Main.java,8\b\8b17e20a726f6a2385deda2f99fe1e26cca26809
-R
-"src/main/java/src/entity/Book.java,0\4\04c9c0627805fe48a02d90e424cdd547fe7d6d47
-T
-$src/main/java/src/entity/Member.java,9\a\9a48203de3049ef31406794a07c61ccc91284f7b
-Y
-)src/main/java/src/entity/Transaction.java,d\b\db56144297f9b2a93917d0bcf880c9a32042a1b7
 `
 0src/main/java/src/controller/BookController.java,c\6\c64b95ffecd2b3b86d0ed924712e0eddcde6ab6d
 b
