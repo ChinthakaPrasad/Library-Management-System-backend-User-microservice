@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/book")
 @RequiredArgsConstructor
+@CrossOrigin
 public class BookController {
     final private BookService bookService;
 
@@ -27,5 +28,16 @@ public class BookController {
     @ResponseStatus(HttpStatus.ACCEPTED)
     public List<Book> getAllBooks(){
         return bookService.getAllBooks();
+    }
+
+    @DeleteMapping("/{id}")
+    public Boolean deleteBook(@PathVariable Long id){
+        System.out.println("Delete method execute");
+        return bookService.deleteBook(id);
+    }
+
+    @PostMapping("/updateBook")
+    public boolean updateBook(@RequestBody Book book){
+        return bookService.updateBook(book);
     }
 }

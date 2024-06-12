@@ -21,3 +21,5 @@ Z
 *src/main/java/src/service/BookService.java,4\8\48779f242e9103257049e8a1aa8d2cfe59a695bf
 j
 :src/main/java/src/service/serviceImpl/BookServiceImpl.java,c\5\c544687df05acf563f7f6d9f6d6c6d2d0ae14655
+R
+"src/main/resources/application.yml,a\6\a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58

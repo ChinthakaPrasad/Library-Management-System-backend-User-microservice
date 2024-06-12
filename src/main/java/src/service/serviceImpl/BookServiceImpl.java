@@ -11,6 +11,7 @@ import src.service.BookService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class BookServiceImpl implements BookService {
@@ -34,12 +35,26 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public boolean updateBook(Book book) {
-        return false;
+        Optional<BookEntity> bookEntityOptional = bookRepository.findById(book.getId());
+        BookEntity bookEntity = bookEntityOptional.get();
+        bookEntity.setIsbn(book.getIsbn());
+        bookEntity.setTitle(book.getTitle());
+        bookEntity.setAuthor(book.getAuthor());
+        bookEntity.setCategory(book.getCategory());
+        bookEntity.setQty(book.getQty());
+        bookRepository.save(bookEntity);
+        return true;
     }
 
     @Override
     public boolean deleteBook(Long id) {
-        return false;
+        if(bookRepository.existsById(id)){
+            bookRepository.deleteById(id);
+            return true;
+        }else {
+            return false;
+        }
+
     }
 
     @Override
