@@ -5,16 +5,10 @@ K
 src/main/java/src/Main.java,8\b\8b17e20a726f6a2385deda2f99fe1e26cca26809
 `
 0src/main/java/src/controller/BookController.java,c\6\c64b95ffecd2b3b86d0ed924712e0eddcde6ab6d
-b
-2src/main/java/src/controller/MemberController.java,2\a\2aa3fd1404386a965d8d78e36a8f8e94b15d749e
 O
 src/main/java/src/dto/Book.java,6\b\6b98e96e7915c6d438445c9a0693ac12e603e68a
 X
 (src/main/java/src/entity/BookEntity.java,2\3\2315596393fa003fd350f9e1bd27705c385b3ac8
-Z
-*src/main/java/src/entity/MemberEntity.java,6\6\6642a7aade7c9118e503b216dcc8bc2dc247caa9
-_
-/src/main/java/src/entity/TransactionEntity.java,d\5\d57ff7bc6bc32dad5249aeda3880fb0de6b4562d
 `
 0src/main/java/src/repository/BookRepository.java,b\b\bbd650970b8e7b3ccea956da43f5f6431d2385e6
 Z
@@ -23,3 +17,5 @@ j
 :src/main/java/src/service/serviceImpl/BookServiceImpl.java,c\5\c544687df05acf563f7f6d9f6d6c6d2d0ae14655
 R
 "src/main/resources/application.yml,a\6\a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
