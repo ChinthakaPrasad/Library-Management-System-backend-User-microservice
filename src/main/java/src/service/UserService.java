@@ -9,5 +9,5 @@ public interface UserService {
     public boolean saveUser(UserDto userDto);
     public boolean deleteUser(String studentId);
     public boolean updateUser(UserDto userDto);
-    public List<UserDto> userList();
+    public List<UserDto> getUserList();
 }

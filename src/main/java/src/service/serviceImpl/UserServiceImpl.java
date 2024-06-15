@@ -52,7 +52,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<UserDto> userList() {
+    public List<UserDto> getUserList() {
         List<UserEntity> userEntityList = (List<UserEntity>) userRepository.findAll();
         List<UserDto> userDtoList = new ArrayList<>();
 
