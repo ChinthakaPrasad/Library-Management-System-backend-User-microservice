@@ -1,6 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÜÅ¶úÿÿÿÿ8ãÃØî€2
-
-java:S3655'"dCall "bookEntityOptional.isPresent()" or "!bookEntityOptional.isEmpty()" before accessing the value.(†Íê¢8íÃØî€2
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÃØî€2
